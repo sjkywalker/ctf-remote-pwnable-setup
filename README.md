@@ -14,8 +14,15 @@ These are shell scripts that automate some procedures shown [here](https://githu
 ### Environment
 
 ```bash
-user@ubuntu:~/send_arp$ uname -a
+user@ubuntu:~/ctf-remote-pwnable-setup$ uname -a
 Linux ubuntu 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+### Prerequisites
+
+You need the following packages pre-installed.
+```bash
+xinetd
 ```
 
 ## Running the program
