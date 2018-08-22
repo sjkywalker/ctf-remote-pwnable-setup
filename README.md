@@ -20,7 +20,7 @@ Linux ubuntu 4.15.0-30-generic #32~16.04.1-Ubuntu SMP Thu Jul 26 20:25:39 UTC 20
 
 ### Prerequisites
 
-You need the following packages pre-installed.
+You need the following package(s) pre-installed.
 ```bash
 xinetd
 ```
