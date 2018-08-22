@@ -32,10 +32,10 @@ Formats are specified in each file.
 
 You need root priviledges to run all four scripts because they can cause fatal issues in your directory tree.
 
-* *makeprob.sh will create a default executble and flag. Replace those with your own ones*
-* *When you want to keep the problem but off the port, use dropprob.sh*
-* *To re-run a dropped problem on a specific port, use reloadprob.sh*
-* *removeprob.sh to delete everything related to a problem from the server* 
+* *`makeprob.sh` will create a default executble and flag. Replace those with your own ones*
+* *When you want to keep the problem but off the port, use `dropprob.sh`*
+* *To re-run a dropped problem on a specific port, use `reloadprob.sh`*
+* *`removeprob.sh` to delete everything related to a problem from the server* 
 
 ## Acknowledgements
 
