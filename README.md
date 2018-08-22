@@ -1,6 +1,12 @@
 # CTF Pwnables Setup Automation Script
 
-These are shell scripts that automate some procedures shown [here](https://github.com/pwning/docs/blob/master/suggestions-for-running-a-ctf.markdown). These scripts are helpful when adding remote problems in pwnable ctf server.
+These are shell scripts that automate some procedures shown [here](https://github.com/pwning/docs/blob/master/suggestions-for-running-a-ctf.markdown). These scripts are helpful when adding remote pwnable problems to your ctf server.
+
+Several features are:
+
+* Creates directories along with default files (binary & flag)
+* Sets recommended permissions associated to each file
+* Does not harm other files in server
 
 ## Getting started
 
