@@ -48,7 +48,29 @@ You need root priviledges to run all four scripts because they can cause fatal i
 * *`makeprob.sh` will create a default executble and flag. Replace those with your own ones*
 * *When you want to keep the problem but off the port, use `dropprob.sh`*
 * *To re-run a dropped problem on a specific port, use `reloadprob.sh`*
-* *`removeprob.sh` to delete everything related to a problem from the server* 
+* *`removeprob.sh` to delete everything related to a problem from the server*
+
+### Management
+
+When you eventually add your *actual* pwnable challenge, *feed* the default file with your binary.
+
+Let's consider your real binary `pwn1` and the default binary `mychal` (created by `./makeprob.sh mychal`).
+
+Example
+
+```bash
+scp pwn1 user@yourctfserver:/home/mychal/pwn1
+cat pwn1 > mychal
+```
+
+Identical for the flag
+
+```bash
+scp flag user@yourctfserver:/home/mychal/flaggg
+cat flaggg > flag
+```
+
+You can just scp as `pwn1` as `mychal`, or `flag` as `flag`, but you will have to reset the ownership and permission settings. That's why feeding is recommended. Default binary and flag have the correct permissions set.
 
 ## Acknowledgements
 
