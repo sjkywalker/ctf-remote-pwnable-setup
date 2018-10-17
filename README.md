@@ -64,7 +64,7 @@ $ scp pwn1 user@yourctfserver:/home/mychal/pwn1
 
 Then login to your server, cd to home directory for mychal.
 
-``bash
+```bash
 $ cat pwn1 > mychal
 ```
 
