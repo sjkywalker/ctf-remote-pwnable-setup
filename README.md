@@ -59,15 +59,25 @@ Let's consider your real binary `pwn1` and the default binary `mychal` (created 
 Example
 
 ```bash
-scp pwn1 user@yourctfserver:/home/mychal/pwn1
-cat pwn1 > mychal
+$ scp pwn1 user@yourctfserver:/home/mychal/pwn1
 ```
 
-Identical for the flag
+Then login to your server, cd to home directory for mychal.
+
+``bash
+$ cat pwn1 > mychal
+```
+
+Identical for the flag. First scp the flag to your server.
 
 ```bash
-scp flag user@yourctfserver:/home/mychal/flaggg
-cat flaggg > flag
+$ scp flag user@yourctfserver:/home/mychal/flaggg
+```
+
+Then login to your server, cd to home directory for mychal.
+
+```bash
+$ cat flaggg > flag
 ```
 
 You can just scp as `pwn1` as `mychal`, or `flag` as `flag`, but you will have to reset the ownership and permission settings. That's why feeding is recommended. Default binary and flag have the correct permissions set.
